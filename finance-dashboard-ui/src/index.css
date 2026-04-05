@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
+  background: #f3f4f6;
+  color: #111827;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+html.dark body {
+  background: #0b1220;
+  color: #e5e7eb;
+}
